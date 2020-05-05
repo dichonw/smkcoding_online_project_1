@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
 import android.widget.Button
+import org.jetbrains.anko.toolbar
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,5 +23,6 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener{
             startActivity(Intent(this, FormBiodata::class.java))
         }
+
     }
 }

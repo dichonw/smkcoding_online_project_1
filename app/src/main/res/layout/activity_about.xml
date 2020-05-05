@@ -33,6 +33,116 @@
 
     </androidx.appcompat.widget.Toolbar>
 
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:cardElevation="5dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:clipToPadding="false"-->
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        android:id="@+id/cardview_form"-->
+<!--        android:layout_below="@+id/toolbar1">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            //gambar-->
+<!--            <ImageView-->
+<!--                android:layout_width="120dp"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_margin="6dp"-->
+<!--                android:minHeight="200dp"-->
+<!--                android:background="@drawable/ic_user"-->
+<!--                android:id="@+id/gambar1"-->
+<!--                android:scaleType="centerCrop"/>-->
+<!--            //nama-->
+<!--            <TextView-->
+<!--                android:id="@+id/textnama"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Nama:"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:textStyle="italic"-->
+<!--                android:textSize="12dp"-->
+<!--                android:textColor="#000"-->
+<!--                android:layout_marginLeft="155dp"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="155dp"-->
+<!--                android:text="Muhammad Dicho N"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="12dp"-->
+<!--                android:id="@+id/nama"-->
+<!--                android:layout_below="@+id/textnama"/>-->
+<!--            //email-->
+<!--            <TextView-->
+<!--                android:id="@+id/textemail"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Email:"-->
+<!--                android:textStyle="italic"-->
+<!--                android:textSize="12dp"-->
+<!--                android:textColor="#000"-->
+<!--                android:layout_marginLeft="155dp"-->
+<!--                android:layout_below="@id/nama"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="155dp"-->
+<!--                android:text="dichowicaksono10@gmail.com"-->
+<!--                android:textColor="#000"-->
+<!--                android:id="@+id/emial"-->
+<!--                android:textSize="12dp"-->
+<!--                android:layout_below="@+id/textemail"/>-->
+<!--            //telp-->
+<!--            <TextView-->
+<!--                android:id="@+id/texttelp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="No. Telp:"-->
+<!--                android:textStyle="italic"-->
+<!--                android:textSize="12dp"-->
+<!--                android:textColor="#000"-->
+<!--                android:layout_marginLeft="155dp"-->
+<!--                android:layout_below="@id/emial"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="155dp"-->
+<!--                android:text="083834766025"-->
+<!--                android:textColor="#000"-->
+<!--                android:id="@+id/telp"-->
+<!--                android:textSize="12dp"-->
+<!--                android:layout_below="@+id/texttelp"/>-->
+<!--            //alamat-->
+<!--            <TextView-->
+<!--                android:id="@+id/textalamat"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Alamat:"-->
+<!--                android:textStyle="italic"-->
+<!--                android:textSize="12dp"-->
+<!--                android:textColor="#000"-->
+<!--                android:layout_marginLeft="155dp"-->
+<!--                android:layout_below="@id/telp"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="155dp"-->
+<!--                android:text="Malang"-->
+<!--                android:textColor="#000"-->
+<!--                android:id="@+id/alamat"-->
+<!--                android:textSize="12dp"-->
+<!--                android:layout_below="@+id/textalamat"/>-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,98 +157,120 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            //gambar
+            android:layout_height="wrap_content"
+            tools:context=".ProfilActivity"
+            android:padding="10dp">
             <ImageView
+                android:id="@+id/iv_foto"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
-                android:layout_margin="6dp"
-                android:minHeight="200dp"
-                android:background="@drawable/ic_user"
-                android:id="@+id/gambar1"
-                android:scaleType="centerCrop"/>
-            //nama
-            <TextView
-                android:id="@+id/textnama"
+                android:src="@drawable/ic_user"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nama:"
-                android:layout_marginTop="5dp"
-                android:textStyle="italic"
-                android:textSize="12dp"
-                android:textColor="#000"
-                android:layout_marginLeft="155dp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="155dp"
-                android:text="Muhammad Dicho N"
-                android:textColor="#000"
-                android:textSize="12dp"
-                android:id="@+id/nama"
-                android:layout_below="@+id/textnama"/>
-            //email
-            <TextView
-                android:id="@+id/textemail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Email:"
-                android:textStyle="italic"
-                android:textSize="12dp"
-                android:textColor="#000"
-                android:layout_marginLeft="155dp"
-                android:layout_below="@id/nama"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="155dp"
-                android:text="dichowicaksono10@gmail.com"
-                android:textColor="#000"
-                android:id="@+id/emial"
-                android:textSize="12dp"
-                android:layout_below="@+id/textemail"/>
-            //telp
-            <TextView
-                android:id="@+id/texttelp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="No. Telp:"
-                android:textStyle="italic"
-                android:textSize="12dp"
-                android:textColor="#000"
-                android:layout_marginLeft="155dp"
-                android:layout_below="@id/emial"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="155dp"
-                android:text="083834766025"
-                android:textColor="#000"
-                android:id="@+id/telp"
-                android:textSize="12dp"
-                android:layout_below="@+id/texttelp"/>
-            //alamat
-            <TextView
-                android:id="@+id/textalamat"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Alamat:"
-                android:textStyle="italic"
-                android:textSize="12dp"
-                android:textColor="#000"
-                android:layout_marginLeft="155dp"
-                android:layout_below="@id/telp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="155dp"
-                android:text="Malang"
-                android:textColor="#000"
-                android:id="@+id/alamat"
-                android:textSize="12dp"
-                android:layout_below="@+id/textalamat"/>
-
+                android:orientation="vertical"
+                android:layout_below="@id/iv_foto">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textSize="15sp"
+                        android:text="Nama:"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:id="@+id/txtName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:text="Muhammad Dicho N"
+                        android:textColor="#000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textSize="15sp"
+                        android:text="Email:"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:text="dichowicaksono10@gmail.com"
+                        android:textColor="#000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textSize="15sp"
+                        android:text="Telp:"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:id="@+id/txtTelp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:text="085123123123"
+                        android:textColor="#000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textSize="15sp"
+                        android:text="Alamat:"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:id="@+id/txtAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:text="Malang, Indonesia"
+                        android:textColor="#000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+                    <Button
+                        android:id="@+id/btnCall"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:text="TELEPON"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:background="@drawable/ic_border_radius"/>
+                </LinearLayout>
+            </LinearLayout>
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>

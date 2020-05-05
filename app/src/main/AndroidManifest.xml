@@ -9,7 +9,12 @@
         android:roundIcon="@drawable/logo_bio"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Profil"></activity>
+        <activity
+            android:name=".EditProfil"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".Profil"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".FormBiodata"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

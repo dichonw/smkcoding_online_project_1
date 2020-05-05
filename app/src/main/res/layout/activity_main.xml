@@ -6,15 +6,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    
+
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#fff"
         android:id="@+id/toolbar1"
         app:titleTextColor="#000"
-        app:title="@string/app_name"
-        android:elevation="4dp"/>
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/btn_kembali_editProfil"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#fff"
+            android:src="@drawable/logo_bio" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Biodata App"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
     
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
