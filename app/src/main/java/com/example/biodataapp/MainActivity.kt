@@ -14,14 +14,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button = findViewById(R.id.btn_about)
-        button.setOnClickListener{
-            startActivity(Intent(this, About::class.java))
-        }
-
         button = findViewById(R.id.btn_form)
         button.setOnClickListener{
             startActivity(Intent(this, FormBiodata::class.java))
+        }
+
+        button = findViewById(R.id.btn_about)
+        button.setOnClickListener{
+            startActivity(Intent(this, About::class.java))
         }
 
     }

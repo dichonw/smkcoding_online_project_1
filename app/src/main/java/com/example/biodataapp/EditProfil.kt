@@ -9,16 +9,9 @@ import kotlinx.android.synthetic.main.activity_edit_profil.*
 
 class EditProfil : AppCompatActivity() {
 
-//    private lateinit var button : ImageButton
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit_profil)
-
-//        button = findViewById(R.id.btn_kembali_editProfil)
-//        button.setOnClickListener{
-//            startActivity(Intent(this, Profil::class.java))
-//        }
 
         //menerima data yang dikirimkan dari ProfilActivity.kt
         val intentData = intent.extras
