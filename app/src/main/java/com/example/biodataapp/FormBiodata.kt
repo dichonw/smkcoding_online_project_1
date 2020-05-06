@@ -34,8 +34,7 @@ class FormBiodata : AppCompatActivity() {
         setDataSpinnerGender()
 
         //memberi click listener ke tombol Save.
-        //jika tombol save ditekan, maka akan menjalankan method
-        validasiInput()
+        //jika tombol save ditekan, maka akan menjalankan method validasiInput()
         btnSave.setOnClickListener { validasiInput() }
     }
 
